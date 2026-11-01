@@ -1,0 +1,45 @@
+{
+  "name": "dsh-android-skills",
+  "version": "1.0.19",
+  "private": true,
+  "description": "Google's official Android skills (android/skills v1.0.19) packaged as a DeepSeek Harness skill bundle.",
+  "keywords": [
+    "dsh",
+    "dsh-bundle",
+    "skills",
+    "android",
+    "kotlin",
+    "jetpack-compose"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devwangxiaogang/dsh-android-skills.git"
+  },
+  "homepage": "https://github.com/devwangxiaogang/dsh-android-skills#readme",
+  "bugs": {
+    "url": "https://github.com/devwangxiaogang/dsh-android-skills/issues"
+  },
+  "license": "Apache-2.0",
+  "icon": "./icon.svg",
+  "exports": {
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "skills",
+    "LICENSE.txt",
+    "NOTICE",
+    "README.md",
+    "README.zh.md",
+    "release.json"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

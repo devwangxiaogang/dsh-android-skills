@@ -1,0 +1,23 @@
+Android Skills
+==============
+
+The skill content in this package comes from the android/skills repository:
+
+    https://github.com/android/skills
+
+    Copyright Google LLC
+    Licensed under the Apache License, Version 2.0 (see LICENSE.txt)
+    Source commit: 6daa53e (upstream plugin version 1.0.19)
+    Packaged for DeepSeek Harness as dsh-android-skills 1.0.19
+
+The skill content is redistributed unmodified. The only packaging change is
+that the 36 skill directories, which upstream organizes under category
+directories (for example jetpack-compose/adaptive or wear/wear-compose-m3),
+are placed at the top level of the skills/ directory, because the DeepSeek
+Harness skill filesystem provider only discovers skills at the top level of
+a scanned root.
+
+This package is not affiliated with or endorsed by Google LLC. "Android",
+"Google", "Jetpack", "Kotlin" and related marks are trademarks of their
+respective owners. The icon bundled with this package is an original artwork
+and does not use Google or Android logos.

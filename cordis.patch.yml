@@ -1,0 +1,8 @@
+- insert:
+    - id: android-skills-filesystem
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: android-skills
+        includeDefaultRoots: false
+        watch: false
+        bundledSkillDir: !!js process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:url').fileURLToPath(baseUrl), 'node_modules', 'dsh-android-skills', 'skills')
